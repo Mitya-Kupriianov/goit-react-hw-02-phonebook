@@ -1,12 +1,17 @@
 .item {
   display: flex;
   justify-content: space-between;
-  min-width: 350px;
+  align-items: baseline;
+  min-width: 400px;
   margin-bottom: 10px;
-  font-size: 20px;
+  font-size: 22px;
 }
 
+ul {
+  padding-left: 0;
+}
 .btn {
+  display: block;
   font-size: 18px;
   padding: 10px 20px;
   border: none;
